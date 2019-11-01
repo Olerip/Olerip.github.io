@@ -53,3 +53,37 @@ body {
     -o-transition: all .5s; 
     transition: all .5s;
 }
+
+/* specific heights */
+.details3 {
+    transition: height 1s ease;
+  }
+  .details3:not([open]) { height: 1.25em; }
+  .details3[open] { height: 3.75em; }
+
+  @keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-1.25em);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.details5[open] {
+	animation-name: fadeInDown;
+  animation-duration: 0.5s;
+}
+
+/* animate font-size (for height: auto) */
+@keyframes growAndFadeInFontSize {
+	0% {
+    font-size: 0;
+    opacity: 0;
+	}
+	100% {
+    font-size: 1em;
+    opacity: 1;
+	}
+}

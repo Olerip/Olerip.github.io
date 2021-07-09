@@ -1,0 +1,24 @@
+body{
+    color:#fff;
+    background:#fff;
+    background-image: url('https://i.imgur.com/wtq1FzD.jpg');
+    background-attachment: fixed;
+}
+
+.navbar.navbar-ng{
+    border-top: 3px solid #aabbcc;
+    position: fixed;
+}
+
+.navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-center-part .ak-logo-game .ak-logo-desktop{
+    max-width: 120px;
+    margin:auto;
+}
+
+.navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:before, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:before{
+    background: #ddd;
+}
+
+.navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:focus, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:active, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:hover, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:focus, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:active, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:hover{
+    color:rgb(0, 204, 255);
+}

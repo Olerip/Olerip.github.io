@@ -7,12 +7,13 @@ body{
 
 .navbar.navbar-ng{
     border-top: 3px solid #aabbcc;
+    border-bottom: 3px solid #aabbcc;
     position: fixed;
 }
 
 .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-center-part .ak-logo-game .ak-logo-desktop{
-    max-width: 120px;
-    margin:auto;
+    max-width: 100px;
+    margin:40px auto auto;
 }
 
 .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:before, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:before{
@@ -21,4 +22,15 @@ body{
 
 .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:focus, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:active, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-left-part a:hover, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:focus, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:active, .navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-right-part a:hover{
     color:rgb(0, 204, 255);
+}
+
+.navbar.navbar-ng{
+    height:100px;
+}
+.navbar.navbar-ng .navbar-content{
+    height: 94px;
+}
+
+.navbar.navbar-ng .navbar-content .ak-navbar-part.ak-navbar-center-part .ak-logo-game .ak-logo-desktop{
+    filter:drop-shadow(7px 4px 11px rgba(0, 0, 0, 0.5))
 }
